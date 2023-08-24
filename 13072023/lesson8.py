@@ -87,8 +87,8 @@ while True:
             new = []
             for item in ['Введите имя: ', 'Введите телефон: ', 'Введите коммент: ']:
                 new.append((input(item)))
-                add_new_contact(phone_book, new)
-                print(f'\nКонтакт {new[0]} успешно добавлен!\n')
+            add_new_contact(phone_book, new)
+            print(f'\nКонтакт {new[0]} успешно добавлен!\n')
         case 5:
             func_search(phone_book)
         case 6:
